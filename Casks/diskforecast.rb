@@ -5,7 +5,7 @@ cask "diskforecast" do
   url "https://github.com/coreyhaines31/diskforecast/releases/download/v#{version}/DiskForecast-#{version}.dmg"
   name "Disk Forecast"
   desc "Menu bar disk space forecast that explains System Data and reclaims space safely"
-  homepage "https://diskforecast.com"
+  homepage "https://diskforecast.com/"
 
   livecheck do
     url :url

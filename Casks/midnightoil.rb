@@ -4,8 +4,8 @@ cask "midnightoil" do
 
   url "https://github.com/coreyhaines31/midnightoil/releases/download/v#{version}/MidnightOil-#{version}.dmg"
   name "Midnight Oil"
-  desc "Keep your Mac awake so AI agents, renders, and downloads can finish"
-  homepage "https://midnightoil.app"
+  desc "Keeps the computer awake so AI agents, renders, and downloads can finish"
+  homepage "https://midnightoil.app/"
 
   livecheck do
     url :url

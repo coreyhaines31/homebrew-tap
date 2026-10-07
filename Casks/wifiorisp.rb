@@ -5,7 +5,7 @@ cask "wifiorisp" do
   url "https://github.com/coreyhaines31/wifiorisp/releases/download/v#{version}/WiFiOrISP-#{version}.dmg"
   name "WiFi or ISP"
   desc "Menu bar app that tells you whether slow internet is your Wi-Fi or your ISP"
-  homepage "https://wifiorisp.com"
+  homepage "https://wifiorisp.com/"
 
   livecheck do
     url :url
