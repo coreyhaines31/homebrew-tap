@@ -1,6 +1,6 @@
 cask "wifiorisp" do
-  version "1.0.1"
-  sha256 "519de770f130ab080d2ae09ea84b933ac887ce8831bd8711fe27c7b2a5d197b9"
+  version "1.0.2"
+  sha256 "f6b4f2a0833518db4364fc61aab0cb00c15e921726258d6960741dd9f51cc08e"
 
   url "https://github.com/coreyhaines31/wifiorisp/releases/download/v#{version}/WiFiOrISP-#{version}.dmg"
   name "WiFi or ISP"
