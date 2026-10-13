@@ -1,6 +1,6 @@
 cask "diskforecast" do
-  version "1.2.1"
-  sha256 "2246ec9b030b3919652b22c55692025d72a25f2ac05831cb4b1fc49e58e81fc9"
+  version "1.3.0"
+  sha256 "6cd364087e67430ed5e3fad4d4863292e51e4e1979cde9495194213908a05145"
 
   url "https://github.com/coreyhaines31/diskforecast/releases/download/v#{version}/DiskForecast-#{version}.dmg"
   name "Disk Forecast"
@@ -16,6 +16,7 @@ cask "diskforecast" do
   depends_on macos: :sonoma
 
   app "Disk Forecast.app"
+  binary "#{appdir}/Disk Forecast.app/Contents/MacOS/diskforecast"
 
   zap trash: [
     "~/Library/Application Support/Disk Forecast",
