@@ -1,6 +1,6 @@
 cask "spare" do
-  version "0.13.0"
-  sha256 "6e505025fc9fed6bf08f391131bab6c24e134cd7964f707b45971ab2379709e0"
+  version "0.14.0"
+  sha256 "203b3a494b2c290317b50e65040f6d4d3caaee6978d2913627e81123dad54470"
 
   url "https://github.com/coreyhaines31/spare/releases/download/v#{version}/Spare-#{version}-arm64.dmg"
   name "Spare"
@@ -17,6 +17,7 @@ cask "spare" do
   depends_on macos: :sonoma
 
   app "Spare.app"
+  binary "#{appdir}/Spare.app/Contents/MacOS/spare-cli", target: "spare"
 
   zap trash: [
     "~/Library/Application Support/Spare",
