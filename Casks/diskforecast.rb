@@ -1,6 +1,6 @@
 cask "diskforecast" do
-  version "1.4.0"
-  sha256 "812688f85dbb7ecbf8cc65c9ddc5df0a4182f2f0be6c7bdc6675f5c78ead9c42"
+  version "1.5.0"
+  sha256 "a74310e24b32a8880d2ed9d4a31f6f111445a5424da6d6d630a0a9f9d3b26d02"
 
   url "https://github.com/coreyhaines31/diskforecast/releases/download/v#{version}/DiskForecast-#{version}.dmg"
   name "Disk Forecast"
