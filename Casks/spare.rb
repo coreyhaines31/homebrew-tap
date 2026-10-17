@@ -1,6 +1,6 @@
 cask "spare" do
-  version "0.15.0"
-  sha256 "1459c31146b6e8a08d4fd516dcbd309dad5c156b12a95433266ef23bf3674e2e"
+  version "0.15.1"
+  sha256 "c23681c3f515544a1cfff116503a6b42af94b9ee4ab10a7392e5be888dcace0a"
 
   url "https://github.com/coreyhaines31/spare/releases/download/v#{version}/Spare-#{version}-arm64.dmg"
   name "Spare"
