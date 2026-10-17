@@ -1,6 +1,6 @@
 cask "midnightoil" do
-  version "1.5.0"
-  sha256 "8a044f69722692978ff01760f08615511b3acaf9fc6465eca1fda40c153b725f"
+  version "1.5.1"
+  sha256 "6186f88f6b2654fb7a0fc2da7b5419efd2e5f8adb364f25c777cca0f1ab090ca"
 
   url "https://github.com/coreyhaines31/midnightoil/releases/download/v#{version}/MidnightOil-#{version}.dmg"
   name "Midnight Oil"
