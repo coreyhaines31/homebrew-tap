@@ -1,6 +1,6 @@
 cask "greenroom" do
-  version "1.8.0"
-  sha256 "3825662b1c08a44246d5a95bbfdc8ba36a5a3d8abe7567d3105b1561a120e28f"
+  version "1.9.0"
+  sha256 "1a087549a8ed69072715f137e10ea049f30b857d03fda5eda5e7b83b00892048"
 
   url "https://github.com/coreyhaines31/greenroom/releases/download/v#{version}/GreenRoom-#{version}.dmg"
   name "Green Room"
