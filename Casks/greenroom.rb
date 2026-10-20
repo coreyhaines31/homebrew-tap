@@ -5,7 +5,7 @@ cask "greenroom" do
   url "https://github.com/coreyhaines31/greenroom/releases/download/v#{version}/GreenRoom-#{version}.dmg"
   name "Green Room"
   desc "Menu bar app to check your camera, mic, and speakers before calls"
-  homepage "https://greenroomformac.com"
+  homepage "https://greenroomformac.com/"
 
   livecheck do
     url :url
@@ -13,7 +13,7 @@ cask "greenroom" do
   end
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Green Room.app"
   binary "#{appdir}/Green Room.app/Contents/MacOS/greenroom"
