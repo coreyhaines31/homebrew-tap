@@ -1,11 +1,11 @@
 cask "fuelgauge" do
-  version "1.3.1"
-  sha256 "e06036e3b5d699e8a8aeb56e00cd08f074855d5a09bf22cfae6ddbc71218869c"
+  version "1.5.0"
+  sha256 "4c53e2a1ae20d361f3e6e67f257d2b1ef3751b6aff03174edb48a056f473426c"
 
   url "https://github.com/coreyhaines31/fuelgauge/releases/download/v#{version}/FuelGauge-#{version}.dmg"
   name "Fuel Gauge"
-  desc "Menu bar forecast of when you'll hit your Claude Code, Codex, and Grok Bot limits"
-  homepage "https://fuelgauge.app"
+  desc "AI coding usage, cost, and limit forecasts in the menu bar"
+  homepage "https://fuelgauge.app/"
 
   livecheck do
     url :url
@@ -13,7 +13,7 @@ cask "fuelgauge" do
   end
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Fuel Gauge.app"
   binary "#{appdir}/Fuel Gauge.app/Contents/MacOS/fuelgauge"

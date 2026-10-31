@@ -1,6 +1,6 @@
 cask "onhand" do
-  version "1.4.1"
-  sha256 "ad12b7fc68e0caf0e53120afff733018b91e7cc35984d7c468767e2e2ddcd908"
+  version "1.5.1"
+  sha256 "76eda99604f2839741f737697aa7aced47775377865df4afba928469a8697b10"
 
   url "https://github.com/coreyhaines31/onhand/releases/download/v#{version}/OnHand-#{version}.zip"
   name "On Hand"

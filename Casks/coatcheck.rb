@@ -1,6 +1,6 @@
 cask "coatcheck" do
-  version "0.1.1"
-  sha256 "07cc3f350cee595e831e3cc5fd75804f6d908db144df580f2e8910c2a4da19de"
+  version "0.1.2"
+  sha256 "53b34995aa8f95c7cb71d79853f9a5301f66d3ecbaad333edf72b29d44407587"
 
   url "https://github.com/coreyhaines31/coatcheck/releases/download/v#{version}/CoatCheck-#{version}-arm64.dmg"
   name "Coat Check"
