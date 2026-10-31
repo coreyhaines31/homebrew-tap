@@ -4,8 +4,8 @@ cask "fuelgauge" do
 
   url "https://github.com/coreyhaines31/fuelgauge/releases/download/v#{version}/FuelGauge-#{version}.dmg"
   name "Fuel Gauge"
-  desc "Menu bar forecast of when you'll hit your Claude Code, Codex, and Grok Bot limits"
-  homepage "https://fuelgauge.app"
+  desc "AI coding usage, cost, and limit forecasts in the menu bar"
+  homepage "https://fuelgauge.app/"
 
   livecheck do
     url :url
@@ -13,7 +13,7 @@ cask "fuelgauge" do
   end
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Fuel Gauge.app"
   binary "#{appdir}/Fuel Gauge.app/Contents/MacOS/fuelgauge"
