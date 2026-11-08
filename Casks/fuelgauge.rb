@@ -1,6 +1,6 @@
 cask "fuelgauge" do
-  version "1.8.0"
-  sha256 "a26c48ce946d50f7fbfeb386ec032699a3d036b97eaaa6fa7ad83f7e8076b1bc"
+  version "1.8.1"
+  sha256 "cc68e8f718e846c0b6d188d432a845e2f0cd18e5f4cbc2677157990a53820c0b"
 
   url "https://github.com/coreyhaines31/fuelgauge/releases/download/v#{version}/FuelGauge-#{version}.dmg"
   name "Fuel Gauge"
