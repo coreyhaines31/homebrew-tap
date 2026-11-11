@@ -18,6 +18,21 @@ cask "midnightoil" do
   app "Midnight Oil.app"
   binary "#{appdir}/Midnight Oil.app/Contents/MacOS/midnightoil"
 
+  # Removing the closed-lid helper mid-session would leave lid-close sleep off, so restore it
+  # first if the helper's marker says a session disabled it.
+  uninstall early_script: {
+              executable: "/bin/sh",
+              args:       [
+                "-c",
+                'm="/Library/Application Support/Midnight Oil/sleep-disabled"; ' \
+                '[ -e "$m" ] && /usr/bin/pmset disablesleep 0 && /bin/rm -f "$m"; exit 0',
+              ],
+              sudo:       true,
+            },
+            launchctl:    "app.midnightoil.MidnightOil.Helper",
+            quit:         "app.midnightoil.MidnightOil",
+            rmdir:        "/Library/Application Support/Midnight Oil"
+
   zap trash: [
     "~/Library/Application Support/Midnight Oil",
     "~/Library/Preferences/app.midnightoil.MidnightOil.plist",
