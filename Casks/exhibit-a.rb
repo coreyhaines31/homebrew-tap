@@ -1,6 +1,6 @@
 cask "exhibit-a" do
-  version "0.1.3"
-  sha256 "f05e901145318163a6edadd9f53eef66ee0186dcb60ad20c608db44c55e7c5d4"
+  version "0.1.4"
+  sha256 "aac8c85dcf4fc620d0ac8f1216934ad8246e472633119930130527ec12fe38f6"
 
   url "https://github.com/coreyhaines31/exhibita/releases/download/v#{version}/ExhibitA-#{version}.dmg"
   name "Exhibit A"
