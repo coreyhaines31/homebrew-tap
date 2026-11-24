@@ -1,6 +1,6 @@
 cask "killcord" do
-  version "0.3.1"
-  sha256 "a74781fe3770e902b70a2e347a9365700c1219fcf1c6cd8867ceef1b637fa816"
+  version "0.4.0"
+  sha256 "69e4185c5fa91e12d958912a7f5aab898242d1eaafc2f8014e254ca25faa35fc"
 
   url "https://github.com/coreyhaines31/killcord/releases/download/v#{version}/KillCord-#{version}.dmg"
   name "Kill Cord"
